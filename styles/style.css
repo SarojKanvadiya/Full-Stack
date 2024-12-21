@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+}
+
+#nav{
+    /* display: flex; */
+    background-color: blueviolet;
+    /* justify-content: space-between; */
+    height: fit-content;
+    padding: 1.2rem;
+}
+#nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-link{
+  display: flex; 
+  justify-content: space-around; 
+  /* border: 2px solid white; */
+  width: 40%;
+  margin-right: 5%;
+}
+a{
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+a:hover{
+    color: violet;
+    transition: color 1s ease;
+    text-overflow: 1px 1px 2px pink;
+}
+
+#main{
+    /* width: 70%; */
+    margin: 4rem auto;
+    text-align: center;
+    font-size: 1.5rem;
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#header-span{
+color: blueviolet;
+font-size: 3rem ;
+}
+
+#main-btn{
+    width: 10rem;
+    height: 2rem;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+#main-btn:hover{
+    background-color: blueviolet;
+    transition: background-color 1s ease;
+}
+
+#footer{
+    width: 100%;
+    color: white;
+    background-color: blueviolet;
+    height: 3rem;
+    padding: .5rem;
+    position: absolute;
+    bottom: 0;
+    
+}

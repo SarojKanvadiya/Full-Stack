@@ -1,0 +1,1 @@
+export const baseUrl = "https://scarlet-teal-outrigger.glitch.me";

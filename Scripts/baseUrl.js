@@ -1,1 +1,1 @@
-export const baseUrl = "https://scarlet-teal-outrigger.glitch.me";
+export const baseUrl = "http://localhost:3000";
